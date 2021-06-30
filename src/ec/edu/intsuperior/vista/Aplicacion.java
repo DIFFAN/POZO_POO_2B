@@ -14,11 +14,11 @@ import ec.edu.intsuperior.modelo.Punto;
  */
 public class Aplicacion {
     public static void main(String[] args){
-        Punto p = new Punto(2, 2);
+        
         Punto p1 = new Punto(7, -3);
         Punto p2 = new Punto(3, 2);
         Linea radio = new Linea(p1, p2);
-        Circulo circulo = new Circulo(radio, p);
+        Circulo circulo = new Circulo(radio, p1);
         Cilindro c1 = new Cilindro(circulo, radio);     
     }
 }

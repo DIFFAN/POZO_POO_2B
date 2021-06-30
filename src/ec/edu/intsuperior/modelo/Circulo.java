@@ -11,14 +11,14 @@ package ec.edu.intsuperior.modelo;
  */
 public class Circulo {
     private Linea radio;
-    private Punto p;
+    private Punto p1;
 
     public Circulo() {
     }
 
-    public Circulo(Linea radio, Punto p) {
+    public Circulo(Linea radio, Punto p1) {
         this.radio = radio;
-        this.p = p;
+        this.p1 = p1;
     }
     
 }
