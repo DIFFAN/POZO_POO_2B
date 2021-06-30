@@ -10,7 +10,15 @@ package ec.edu.intsuperior.modelo;
  * @author DIFFAN
  */
 public class Circulo {
-    private Linea linea;
-    
+    private Linea radio;
+    private Punto p;
+
+    public Circulo() {
+    }
+
+    public Circulo(Linea radio, Punto p) {
+        this.radio = radio;
+        this.p = p;
+    }
     
 }

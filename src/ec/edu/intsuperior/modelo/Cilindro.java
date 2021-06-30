@@ -12,4 +12,15 @@ package ec.edu.intsuperior.modelo;
 public class Cilindro {
     private Circulo circulo;
     private Linea linea;
+
+    public Cilindro() {
+    }
+
+    public Cilindro(Circulo circulo, Linea linea) {
+        this.circulo = circulo;
+        this.linea = linea;
+    }
+    
+    
+    
 }

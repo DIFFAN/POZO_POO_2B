@@ -10,5 +10,15 @@ package ec.edu.intsuperior.modelo;
  * @author DIFFAN
  */
 public class Linea {
-    private Punto punto;
+    private Punto p1;
+    private Punto p2;
+    
+    public Linea(){
+        System.out.println("objeto creado");
+    }
+
+    public Linea(Punto p1, Punto p2) {
+        this.p1 = p1;
+        this.p2 = p2;
+    }
 }
