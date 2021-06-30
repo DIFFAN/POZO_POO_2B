@@ -19,6 +19,7 @@ public class Aplicacion {
         Punto p2 = new Punto(3, 2);
         Linea radio = new Linea(p1, p2);
         Circulo circulo = new Circulo(radio, p1);
-        Cilindro c1 = new Cilindro(circulo, radio);     
+        Cilindro c1 = new Cilindro(circulo, radio);   
+        
     }
 }
