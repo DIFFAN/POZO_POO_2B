@@ -20,5 +20,22 @@ public class Circulo {
         this.radio = radio;
         this.p1 = p1;
     }
+
+    public Punto getP1() {
+        return p1;
+    }
+
+    public Linea getRadio() {
+        return radio;
+    }
+
+    public void setP1(Punto p1) {
+        this.p1 = p1;
+    }
+
+    public void setRadio(Linea radio) {
+        this.radio = radio;
+    }
+    
     
 }

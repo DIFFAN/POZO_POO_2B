@@ -20,7 +20,21 @@ public class Cilindro {
         this.circulo = circulo;
         this.linea = linea;
     }
-    
-    
+
+    public Circulo getCirculo() {
+        return circulo;
+    }
+
+    public Linea getLinea() {
+        return linea;
+    }
+
+    public void setCirculo(Circulo circulo) {
+        this.circulo = circulo;
+    }
+
+    public void setLinea(Linea linea) {
+        this.linea = linea;
+    }
     
 }
