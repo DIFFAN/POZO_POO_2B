@@ -38,5 +38,13 @@ public class Punto {
         this.y = y;
     }
     
-    
+    public double distanciaEntreDosPuntos(int x1, int x2, int y1, int y2){
+        //x = (int) (Math.pow(((double)(x1)-(double)(x2)), 2));
+       
+        //y = (int) (Math.pow(((double)(y1)-(double)(y2)), 2));
+        
+        double d;
+        d=Math.sqrt((Math.pow(((double)(x2)-(double)(x1)), 2))+(Math.pow(((double)(y2)-(double)(y1)), 2)));
+        return d;
+    }
 }

@@ -36,6 +36,11 @@ public class Circulo {
     public void setRadio(Linea radio) {
         this.radio = radio;
     }
-    
-    
+    public double areaDelCirculo(int radio){
+        double a;
+        a=Math.PI*Math.pow((double)(radio),2);
+        return a;
+     }
+            
+   
 }
