@@ -25,11 +25,9 @@ public class Aplicacion {
         System.out.println("la distancia es:"+
                 p1.distanciaEntreDosPuntos(p2.getX(), p1.getX(), p2.getY(), p1.getY()));
              
+        
         Circulo c1 = new Circulo(5, p1);
         System.out.println("EL AREA DEL CIRCULO ES:"+c1.areaDelCirculo());
-        
-        
-        
         
         
     }
