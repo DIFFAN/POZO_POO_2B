@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package ec.edu.intsuperior.vista;
-import ec.edu.intsuperior.modelo.Cilindro;
 import ec.edu.intsuperior.modelo.Circulo;
-import ec.edu.intsuperior.modelo.Linea;
 import ec.edu.intsuperior.modelo.Punto;
 import java.util.Scanner;
 /**
@@ -26,9 +24,8 @@ public class Aplicacion {
                 p1.distanciaEntreDosPuntos(p2.getX(), p1.getX(), p2.getY(), p1.getY()));
              
         
-        Circulo c1 = new Circulo(5, p1);
+        Circulo c1 = new Circulo(7, p1);
         System.out.println("EL AREA DEL CIRCULO ES:"+c1.areaDelCirculo());
-        
         
     }
 }
